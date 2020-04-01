@@ -22,14 +22,15 @@
         </ul>
       <div class="home-friends">
         <h1>简介</h1>
-        <p>南方科技大学深圳海底地震仪设备与工程实验室（SUSTech OBS Lab）是响应“建设海洋强国”的国家战略和深圳市“海洋未来产业”的发展规划，由深圳市发改委和南方科技大学共同组建。这一高起点的实验室致力于高性能海底探测设备的研发，并进行海底地震和海啸灾害防御、海底资源开发以及揭示地球内部结构和动力学过程等科学研究。</p>
+        <p>南方科技大学深圳海底地震仪设备与工程实验室（SUSTech OBS Lab）<br>
+          是响应“建设海洋强国”的国家战略和深圳市“海洋未来产业”的发展规划，<br>
+          由深圳市发改委和南方科技大学共同组建。这一高起点的实验室致力于高性能海底探测设备的<br>
+          研发，并进行海底地震和海啸灾害防御、海底资源开发以及揭示地球内部结构和动力学过程等科学研究。</p>
       </div>
-      <div class="home-friends">
-        <h1>人员</h1>
-      </div>
+
       <div class="home-service">
-        <h1>丰富的应用场景，最优的解决方案</h1>
-            <p>引进与吸收了国内外数十位行业资深人才，聚集行业先进的产品与技术，满足不同的客户需求并提供最优解决方案，共创价值</p>
+        <h1>优秀的团队，最佳的解决方案</h1>
+            <p>团队由教授牵头博士及专业工程师等组成，聚集行业先进的产品与技术，满足不同的客户需求并提供最优解决方案，共创价值</p>
             <ul>
                 <li v-for="(item,index) in services" :key="index">
                     <div class="service-box">
@@ -43,7 +44,7 @@
         </div>
         <div class="home-friends">
             <div class="friends-container">
-                <h1>合作伙伴</h1>
+                <h1>合作单位</h1>
                 <p>每年，我们都要求国内外知名的海洋地球物理和地震学专家来实验室访问交流，此外，我们也经常参加在国内外开展的学术会议如AGU，中国地球科学联合会年会等。实验室也常常送学生去其他等高校交流和学习。</p>
                 <ul>
                     <li v-for="item in 6" :key="item">
@@ -64,54 +65,54 @@ export default {
             slider_index: 0,
             sliderList: [
                 {
-                    title: '加盟宁夏节能，开启财富之门',
+                    title: '研发高性能海底探测设备',
                     abstract: '诚邀您的加盟',
-                    img: 'slider01.jpg',
+                    img: 'slider01.png',
                     link: ''
                 },
                 {
-                    title: '智慧能管平台',
-                    abstract: '基于物联网、大数据、区块链等先进技术',
-                    img: 'slider02.jpg',
+                    title: '设备共享,让科研变得更专注',
+                    abstract: '始于足下',
+                    img: 'slider02.png',
                     link: ''
                 },
                 {
-                    title: '能源服务大厅',
-                    abstract: '根据地式能源服务，快速高效响应服务',
-                    img: 'slider03.jpg',
+                    title: '实验,检验真理的唯一标准',
+                    abstract: '',
+                    img: 'slider03.png',
                     link: ''
                 }
             ],
             kind:[
                 {
-                    title: '构建能源服务生态图',
-                    info: '让天下企业用“好”能源'
+                    title: '构建共享服务生态',
+                    info: ''
                 },
                 {
-                    title: '智慧能管平台',
-                    info: '基于物联网、大数据、区块链等先进技术'
+                    title: '研制高水平数采',
+                    info: ''
                 },
                 {
-                    title: '能效产品',
-                    info: '汇聚行业先进能效产品与技术'
+                    title: '培养优秀人才',
+                    info: ''
                 },
                 {
-                    title: '根据地式能源服务大厅',
-                    info: '为您提供多种多样的综合服务'
+                    title: '降低OBS仪器使用门槛',
+                    info: ''
                 }
             ],
             services:[
                 {
-                    title: '政府机构',
-                    info: '“纵向到企业、横向跨行业、覆盖全工业”，实现供给侧与需求侧双向互动。'
+                    title: '深海OBS',
+                    info: '此处可有简介'
                 },
                 {
-                    title: '服务机构',
-                    info: '提供平台、智能终端、能效产品与新技术，实现“能源互联网+售电+能源服务”的综合能源服务。'
+                    title: '短周期OBS',
+                    info: '此处可有简介'
                 },
                 {
-                    title: '能源用户',
-                    info: '提供能源管理系统装备、技术、人才的整体服务解决方案，降低生产成本，提高竞争力。'
+                    title: '陆地版数采',
+                    info: '此处可有简介'
                 }
             ]
         }
@@ -320,7 +321,7 @@ export default {
             position: absolute;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.4);
+//            background: rgba(0, 0, 0, 0.4);
             content: "";
             left: 0;
             top: 0;

@@ -15,11 +15,11 @@
                     <li style="color: #1873FF;">
                         <span style="float:left;margin-right: 8px;"><i class="el-icon-location-outline"></i></span>
                         <div style="display: inline-block;">
-                            银川市金凤区悦海新天地<br>14号办公楼1605-1607号
+                          中国深圳市南山区学苑大道1088号<br>南方科技大学创园9栋402室
                         </div>
                     </li>
-                    <li style="color: #67C23A;"><i class="el-icon-phone"></i>服务热线：400-878 6678</li>
-                    <li style="color: #009688;"><i class="el-icon-printer"></i>传真：0756-3629670</li>
+                    <li style="color: #67C23A;"><i class="el-icon-phone"></i>服务热线：+86-755-8081-8874</li>
+                    <li style="color: #009688;"><i class="el-icon-printer"></i>邮箱：767703980@qq.com</li>
                 </ul>
             </div>
             <div class="foot-right">
@@ -33,8 +33,8 @@
             </div>
         </div>
         <div class="foot-bottom">
-            <div>© Copyrights 2018 宁夏节能投资有限公司. All rights reserved </div>
-            <div>宁ICP备19000065号</div>
+            <div>© Copyrights 2020 南方科技大学海洋系OBS实验室. All rights reserved </div>
+            <div>粤ICP备88888888号</div>
         </div>
     </footer>
 </template>
@@ -49,15 +49,15 @@ export default {
                 title: '产品体系',
                 subList:[
                     {
-                        sub_title: '智能产品',
+                        sub_title: 'OBS设备',
                         link: ''
                     },
                     {
-                        sub_title: '能效',
+                        sub_title: '设备回收辅助工具',
                         link: ''
                     },
                     {
-                        sub_title: '新能源',
+                        sub_title: '数据采集器',
                         link: ''
                     }
                 ]
@@ -66,19 +66,19 @@ export default {
                 title: '解决方案',
                 subList:[
                     {
-                        sub_title: '基于用户蓄电池分布式储能服务平台',
+                        sub_title: '3000米以下深海OBS',
                         link: ''
                     },
                     {
-                        sub_title: '城市能源管控服务云平台',
+                        sub_title: '短周期OBS',
                         link: ''
                     },
                     {
-                        sub_title: '需求侧能源管控平台',
+                        sub_title: '设备共享方案',
                         link: ''
                     },
                     {
-                        sub_title: '智慧水务管控一体化平台',
+                        sub_title: '精准定位回收信标',
                         link: ''
                     }
                 ]

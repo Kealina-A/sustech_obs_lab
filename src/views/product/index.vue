@@ -2,10 +2,10 @@
     <div class="product">
         <figure>
             <figcaption>
-                <h1>产品中心</h1><br>
-                <p>强大产品矩阵，助力综合能源服务创新升级，如智能产品、能效产品、软件产品...</p>
+                <h1>设备中心</h1><br>
+                <p>强大的设备矩阵，如深海设备、陆地设备、回收信标...</p>
             </figcaption>
-            <img src="../../../static/img/head-view/about-header-bg.jpg" width="100%" height="555px">
+            <img src="../../../static/img/head-view/device1.jpg" width="100%" height="555px">
         </figure>
         <ul class="category" :class="{fix: fix}">
             <li v-for="(item,index) in category" :key="index">
@@ -44,17 +44,17 @@ export default {
                 },
                 {
                     kind: 1,
-                    title: '智能产品',
+                    title: '深海设备',
                     color: '#009688'
                 },
                 {
                     kind: 2,
-                    title: '能效',
+                    title: '陆地设备',
                     color: '#5FB878'
                 },
                 {
                     kind: 3,
-                    title: '新能源',
+                    title: '回收信标',
                     color: '#1873FF'
                 }
             ],
@@ -63,37 +63,37 @@ export default {
                     id: 1,
                     kind: 1,
                     img: 'work01.jpg',
-                    title: '智能用电终端'
+                    title: '深海设备1'
                 },
                 {
                     id: 2,
                     kind: 2,
                     img: 'work02.jpg',
-                    title: 'NX301型电力能效监测终端'
+                    title: '陆地设备1'
                 },
                 {
                     id: 3,
                     kind: 3,
                     img: 'work03.jpg',
-                    title: '优电宝-Ι节电器'
+                    title: '回收设备1'
                 },
                 {
                     id: 4,
                     kind: 2,
                     img: 'work04.jpg',
-                    title: '智慧水务管控一体化平台'
+                    title: '陆地设备2'
                 },
                 {
                     id: 5,
                     kind: 3,
                     img: 'work05.jpg',
-                    title: '基于用户蓄电池分布式储能服务平台'
+                    title: '回收设备2'
                 },
                 {
                     id: 6,
                     kind: 3,
                     img: 'work06.jpg',
-                    title: '需求侧能源管控平台'
+                    title: '回收设备3'
                 }
             ],
             copy_products: []
@@ -115,6 +115,7 @@ export default {
         },
         handleScroll(){
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            console.log(scrollTop)
             if(scrollTop >= 555){
                 this.fix = true;
             }else {
@@ -127,6 +128,7 @@ export default {
 </script>
 <style lang="scss" scoped>
     .product {
+
         figure {
             figcaption {
                 color: #ffffff;

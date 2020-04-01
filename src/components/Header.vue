@@ -39,25 +39,32 @@ export default {
                     link: '/home'
                 },
                 {
-                    title: '产品中心',
+                    title: '设备',
                     link: '/product'
                 },
                 {
-                    title: '解决方案',
-                    link: '#'        // '/solution'
+                    title: '项目',
+                    link: '/project'
                 },
                 {
-                    title: '客户案例',
-                    link: '#'        // '/customer'
+                    title: '设备共享',
+                    link: '/platform'
+                },
+                {
+                  title: '交流',
+                  link: '/interchange'
                 },
                 {
                     title: '关于我们',
-                    link: '#'       // '/about'
+                    link: '/about'
                 },
+              /*
                 {
                     title: '500',
                     link: '/error-500'
                 }
+
+               */
             ]
 
         }

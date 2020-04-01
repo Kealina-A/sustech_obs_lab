@@ -12,12 +12,15 @@ import aboutRoutes from './about'
 import customerRoutes from './customer'
 import homeRoutes from './home'
 import productRoutes from './product'
+import projectRoutes from './project'
+import platformRoutes from './platform'
+import interchangeRoutes from './interchange'
 import solutionRoutes from './solution'
 import errorRoutes from './error'
 
 Vue.use(Router)
 
-const children = [...aboutRoutes, ...customerRoutes, ...homeRoutes, ...productRoutes, ...solutionRoutes]
+const children = [...aboutRoutes, ...customerRoutes, ...homeRoutes, ...productRoutes, ...solutionRoutes, ...projectRoutes, ...interchangeRoutes, ...platformRoutes]
 
 const router = new Router({
   mode: 'history',
