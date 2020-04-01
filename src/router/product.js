@@ -22,5 +22,5 @@ export default [
             nav: '产品中心'
         }
     },
-      
+
 ]

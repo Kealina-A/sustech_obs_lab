@@ -16,5 +16,5 @@ export default [
         component: resolve => require(['@/views/error/404'], resolve),
         name: 'Error-404'
     }
-      
+
 ]
